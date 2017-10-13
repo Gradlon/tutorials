@@ -3,11 +3,22 @@
         <h1>Voting App</h1>
     </header>
 <main>
-    <h2>{{hello}}</h2>
+    <form class="new-items">
+        <input type="text" name="item1" placeholder="Item 1" />
+        <input type="text" name="item2" placeholder="Item 2" />
+        <input type="submit">
+    </form>
     {{#each items}}
-        {{text}}
+        {{itemOne.text}} vs {{itemTwo.text}} <br>
     {{/each}}
-    <button class="test">Click me</button>
+    <hr>
+    <form class="chat">
+        <input type="text" name="nachricht" placeholder="Chat nachricht" />
+        <input type="submit">
+    </form>
+    {{#each chats}}
+        {{chat.text}} <br>
+    {{/each}}
 </main>
 </body>
 
