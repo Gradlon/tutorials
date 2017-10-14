@@ -9,16 +9,16 @@
         <input type="submit">
     </form>
     {{#each items}}
-        {{itemOne.text}} vs {{itemTwo.text}} <br>
+        {{> item}}
     {{/each}}
     <hr>
     <form class="chat">
-        <input type="text" name="nachricht" placeholder="Chat nachricht" />
+        <input type="text" name="name" placeholder="Dein Name" />
+        <input type="text" name="nachricht" placeholder="Deine Nachricht" />
         <input type="submit">
     </form>
     {{#each chats}}
-        {{chat.text}} <br>
+        {{> chat}}
     {{/each}}
 </main>
 </body>
-

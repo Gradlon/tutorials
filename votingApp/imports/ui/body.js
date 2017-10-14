@@ -3,6 +3,8 @@ import {Items} from '../api/items';
 import {Chats} from '../api/items';
 
 import './body.html';
+import './item.js';
+import './chat.js';
 
 Template.body.helpers({
     items() {
@@ -25,23 +27,5 @@ Template.body.events({
         });
         event.target.item1.value = '';
         event.target.item2.value = '';
-    }
-});
-
-Template.body.helpers({
-    chats() {
-        return Chats.find({});
-    }
-});
-
-Template.body.events({
-    'submit .chat'(event) {
-        event.preventDefault();
-        Chats.insert({
-            chat: {
-                text:event.target.nachricht.value
-            }
-        });
-        event.target.nachricht.value = '';
     }
 });
