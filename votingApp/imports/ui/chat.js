@@ -5,6 +5,9 @@ import './chat.html';
 Template.body.helpers({
     chats() {
         return Chats.find({});
+    },
+    userName() {
+        return Meter.user().emails[0].address;
     }
 });
 
@@ -24,13 +27,14 @@ Template.body.events({
         // add a zero in front of numbers<10
         m = checkTime(m);
         s = checkTime(s);
-        Chats.insert({
-            chat: {
-                text:event.target.nachricht.value,
-                name:event.target.name.value,
-                time: h + ':' + m + ':' + s
+        time = h + ':' + m + ':' + s;
+
+        Meteor.call('createNewMessage', event.target.nachricht.value, time, Meteor.user().emails[0].address, (err, res)=>{
+            if(err) {
+                console.log(err)
+            } else {
+                event.target.nachricht.value = '';
             }
         });
-        event.target.nachricht.value = '';
     }
 });

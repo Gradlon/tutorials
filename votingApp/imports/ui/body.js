@@ -9,23 +9,22 @@ import './chat.js';
 Template.body.helpers({
     items() {
         return Items.find({});
+    },
+    loggedIn() {
+        return Meteor.userId();
     }
 });
 
 Template.body.events({
     'submit .new-items'(event) {
         event.preventDefault();
-        Items.insert({
-            itemOne: {
-                text:event.target.item1.value,
-                value: 0
-            },
-            itemTwo: {
-                text:event.target.item2.value,
-                value: 0
+        Meteor.call('createNewItem', event.target.item1.value, event.target.item2.value, (err, res)=>{
+            if(err) {
+                console.log(err)
+            } else {
+                event.target.item1.value = '';
+                event.target.item2.value = '';
             }
         });
-        event.target.item1.value = '';
-        event.target.item2.value = '';
     }
 });
