@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
-import Item from './item';
-import Items from '../api/items';
-export class App extends Component {
+import Item from './Item';
+
+import Items from '../api/Items';
+
+class App extends Component {
     render() {
         return (
             <div>
@@ -15,12 +17,13 @@ export class App extends Component {
                     })}
                 </main>
             </div>
-    );
+        );
     }
 }
 
+
 export default createContainer(() => {
-   return {
-       items: Items.find({}).fetch()
-   }
+    return {
+        items: Items.find({}).fetch()
+    }
 }, App);
