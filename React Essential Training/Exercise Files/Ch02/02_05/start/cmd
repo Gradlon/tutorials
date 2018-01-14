@@ -1,0 +1,13 @@
+npm install webpack@1.13.3 --save-dev
+npm install babel-loader@6.2.5 --save-dev
+npm install webpack-dev-server@1.16.2 --save-dev
+
+npm install babel-preset-react@6.16.0 --save-dev
+npm install babel-preset-latest@6.16.0 --save-dev
+npm install babel-preset-stage-0@6.16.0 --save-dev
+
+npm install babel-core --save-dev
+
+sudo npm install -g webpack@1.13.3
+
+./node_modules/.bin/webpack

@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -55,8 +55,8 @@
 		{ id: 'title',
 			className: 'header',
 			style: { backgroundColor: 'orange', color: 'white', fontFamily: 'verdana' } },
-		'Hello World'
+		'HEY WORLD!!'
 	), document.getElementById('react-container'));
 
-/***/ }
+/***/ })
 /******/ ]);
