@@ -1,0 +1,5 @@
+npm install autoprefixer-loader@3.2.0 --save-dev
+npm install css-loader@0.25.0 --save-dev
+npm install sass-loader@4.0.2 --save-dev
+npm install node-sass@3.10.1 --save-dev
+npm install style-loader@0.13.1 --save-dev

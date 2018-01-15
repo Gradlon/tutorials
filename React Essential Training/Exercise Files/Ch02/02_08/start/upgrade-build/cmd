@@ -1,0 +1,22 @@
+npm install webpack@3.1.0 --save-dev
+npm install babel-core@6.25.0 --save-dev
+npm install babel-loader@7.1.1 --save-dev
+npm install babel-preset-env@1.6.0 --save-dev
+npm install babel-preset-react@6.24.1 --save-dev
+
+npm install react --save
+np install react-dom --save
+
+npm run build
+
+
+npm install webpack-dev-server@@2.10.1 --save-dev
+
+
+npm install json-loader@0.5.7 --save-dev
+
+npm install autoprefixer-loader@3.2.0 --save-dev
+npm install css-loader@0.28.8 --save-dev
+npm install sass-loader@6.0.6 --save-dev
+npm install node-sass@^4.0.0 --save-dev
+npm install style-loader0.19.1 --save-dev
