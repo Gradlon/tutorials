@@ -1,0 +1,5 @@
+sdfsdfssdf//store.subscribe(function() {
+//  console.log('current state is: ', store.getState());
+  //console.log('current state is: ', store.getState()[0].price);
+  //console.log('current state is: ', store.getState()[1].description);
+//})
