@@ -1,4 +1,4 @@
-"use strick"
+"use strick";
 import React from 'react';
 import {Panel, FormControl, FormGroup, ControlLabel, Well, Button} from 'react-bootstrap';
 import {connect} from 'react-redux';
@@ -12,7 +12,7 @@ class BooksForm extends React.Component {
       title: findDOMNode(this.refs.title).value,
       description: findDOMNode(this.refs.description).value,
       price: findDOMNode(this.refs.price).value
-    }]
+    }];
     this.props.postBooks(book);
   }
   onDelete(){

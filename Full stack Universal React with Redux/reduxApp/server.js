@@ -4,6 +4,7 @@ var app = express();
 var path = require('path');
 // DEFINES A FOLDER FOR THE STATIC FILES
 app.use(express.static('public'));
+
 // DEFINES THE MAIN ENTRY POINT
 app.get('*', function(req, res){
 res.sendFile(path.resolve(__dirname,
