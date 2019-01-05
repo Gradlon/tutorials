@@ -1,0 +1,553 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "C:/Users/Gradlon/Desktop/tutorial-part-three/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "C:/Users/Gradlon/Desktop/tutorial-part-three/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "78c5beefd12cd21fae3c9d00f799ec82",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f1c3f49f81e8e4132b133f2fcb7ad37a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "78bc7a5ebb4962ccd87f8e52799a9473",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f139c6874580287b9557195d00e7bc3b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ccd845624682bde90b474c5c3d7a32a7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fb37f89b42cb4091856d7734c0b2392b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ad721324-96c1-5715-ac8d-3f362695eee0": {
+      "resolve": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby-plugin-typography",
+      "id": "ad721324-96c1-5715-ac8d-3f362695eee0",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.1",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fa6f3d1e3e766464feb051e76e76aeab",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "C:/Users/Gradlon/Desktop/tutorial-part-three",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "e4c007f74ae1f58b2110009fc9425728",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Gradlon/Desktop/tutorial-part-three",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "Gatsby hello world starter",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.15.11"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "73b4909122e9b026d0d2b7c7911ab131",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c852b49c-b6d5-51f1-8285-22799b272a49": {
+      "resolve": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby-plugin-page-creator",
+      "id": "c852b49c-b6d5-51f1-8285-22799b272a49",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Gradlon/Desktop/tutorial-part-three/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d2df846d9740ce13fd3c5e1fcbee3e03",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-11-08T22:01:29.654Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6e5f6d9642f40ba01e8c299baa2a7153",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "c852b49c-b6d5-51f1-8285-22799b272a49",
+      "pluginCreatorId": "c852b49c-b6d5-51f1-8285-22799b272a49",
+      "componentPath": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bcdbbd888ccd3fcd0aef889cbcf128ef",
+        "description": "c852b49c-b6d5-51f1-8285-22799b272a49",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "c852b49c-b6d5-51f1-8285-22799b272a49",
+      "pluginCreatorId": "c852b49c-b6d5-51f1-8285-22799b272a49",
+      "componentPath": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "921066ec69880ff70bf9b69526b1e6f1",
+        "description": "c852b49c-b6d5-51f1-8285-22799b272a49",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "c852b49c-b6d5-51f1-8285-22799b272a49",
+      "pluginCreatorId": "c852b49c-b6d5-51f1-8285-22799b272a49",
+      "componentPath": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a041ac079903b42bbf75ee63ff1d1c93",
+        "description": "c852b49c-b6d5-51f1-8285-22799b272a49",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "9719037e92227fa103c2a1967fb525df"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "C:/Users/Gradlon/Desktop/tutorial-part-three/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "C:/Users/Gradlon/Desktop/tutorial-part-three/.cache/dev-404-page.js"
+    },
+    "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/index.js": {
+      "query": "",
+      "componentPath": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/index.js"
+    },
+    "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/about.js": {
+      "query": "",
+      "componentPath": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/about.js"
+    },
+    "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "C:/Users/Gradlon/Desktop/tutorial-part-three/src/pages/contact.js"
+    }
+  },
+  "staticQueryComponents": {}
+}
