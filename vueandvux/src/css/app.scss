@@ -1,0 +1,7 @@
+// app global css in SCSS form
+$image-path: '../mdb/img';  // image path variable update
+@import '../mdb/scss/mdb.scss'; // main mdb scss pro file
+// @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'); // font import
+.alert-primary {
+  background-color: red;
+}
